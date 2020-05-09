@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+
+
+<body>
+    <div class="container">
+        <!-- <div class="card">
+            <div class="card title">
+                <h1><span class="text-success">Birthday Calculator</h1>
+            </div>
+            <div class="card body">
+                <P>This birthday calculator has been developed to help caculate the date of birth.
+                    It shows the day of birth that many people cant tell the exact day among the days of the
+                    week.
+                    This application will enable you know your Akan name.Its fantastic feel free to interact
+                    with this application.
+                </P>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Male</h2>
+                <ol>
+                    <li>Sunday:Kwasi</li>
+                    <li>Monday:Kwadwo</li>
+                    <li>Tuesday:Kwabena</li>
+                    <li>Wednesday:Kwaku</li>
+                    <li>Thursday:Yaw</li>
+                    <li>Friday:Kofi</li>
+                    <li>Saturday:Kwame</li>
+                </ol>
+            </div>
+            <div class="col">
+                <h2>Female</h2>
+                <ol>
+                    <li>Sunday:Akosua</li>
+                    <li>Monday:Adwoa</li>
+                    <li>Tuesday:Abenaa</li>
+                    <li>Wednesday:Akua</li>
+                    <li>Thursday:Yaa</li>
+                    <li>Friday:Afua</li>
+                    <li>Saturday:Ama</li>
+                </ol>
+            </div>
+        </div> -->
+        <h2>Fill in the form to interact to be informed of the day you were born.</h2>
+        <form id="contact-form" onsubmit="submitForm(); return false;">
+            <div class="form-group">
+                <label for="text">Century of Birth:</label>
+                <input type="text" class="form-control" id="century" placeholder="Century of Birth" name="century" required>
+            </div>
+            <div class="form-group">
+                <label for="text">Year of Birth:</label>
+                <input type="text" class="form-control" id="year" placeholder="Year of Birth" name="year" required>
+            </div>
+            <div class="form-group">
+                <label for="month">Month of Birth:</label>
+                <input type="text" class="form-control" id="month" placeholder="Month of Birth" name="month" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Date of Birth:</label>
+                <input type="text" class="form-control" id="date" placeholder="Date of Birth" name="date" required>
+            </div>
+            <p>What gender are you</p>
+            <div class="form-group">
+                <label for="month">Gender</label><br>
+                <div class="form-check-inline">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male
+                    </label>
+                </div>
+                <div class="form-check-inline">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="gender" id="female">&nbsp;
+                        Female
+                    </label>
+                </div>
+            </div>
+
+
+            <button type="submit" class="btn btn-success" onclick="findName();">Get Name</button>
+            <br>
+            <p id="results"> </p>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
