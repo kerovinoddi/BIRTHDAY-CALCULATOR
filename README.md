@@ -20,7 +20,7 @@ This BIRTHDAY CALCULATOR enable user to know the day of  birth and Akan name
 ## Support and contact details
 
 * Email :kerovineoddi@gmail.com
-* phone number: 0714800083
+* phone number: 0714800083 / 0771742633
 
 ### License
 
