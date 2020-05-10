@@ -4,7 +4,7 @@ This is a Akan Name Finder designed by KEROVIN ODDI
 
 ## Description
 
-This BIRTHDAY-CALCULATOR enable user to know the day of  birth and Akan name
+This BIRTHDAY CALCULATOR enable user to know the day of  birth and Akan name
 
 ## Setup/Installation Requirements
 
