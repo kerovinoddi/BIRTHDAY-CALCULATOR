@@ -14,8 +14,8 @@ This BIRTHDAY CALCULATOR enable user to know the day of  birth and Akan name
 ## Technologies Used
 
 * HTML
-* CSS
 * JS
+* CSS
 
 ## Support and contact details
 
