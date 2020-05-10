@@ -1,4 +1,4 @@
-# BIRTHDAY-CALCULATOR
+# BIRTHDAY CALCULATOR
 
 This is a Akan Name Finder designed by KEROVIN ODDI
 
